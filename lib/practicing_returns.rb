@@ -7,7 +7,7 @@ def hello(array)
     yield(array[i])
     i += 1
   end
-  
+  binding.pry
 end
 
 
